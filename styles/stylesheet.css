@@ -1,3 +1,47 @@
+/* Debugging */
 .D {
   border: 1px solid red;
+}
+
+/* Larger font size for the header */
+header h1 {
+  font-size: 2rem;
+}
+
+/* Spacing, border, and layout of a task */
+.task-list .task {
+  padding: 0.5rem 0rem;
+  padding-left: 0.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Change the color of a task when highlighting */
+.task:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+/* Trash can icon */
+.task .icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.75rem;
+}
+
+/* Text container that displays "There are no new tasks." */
+#no-tasks-view {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove the formatting of buttons */
+.btn-none {
+  padding: 0rem;
+  margin: 0rem;
+  background-color: transparent;
+  border: none;
 }
